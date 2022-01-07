@@ -4,12 +4,22 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;;
 }
-.menu-area{
+.home__menu-area,
+.home__banner-section,
+.home__product-section,
+.home__adress-section{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.home__menu-area,
+.home__footer{
     background-color: rgb(119, 0, 0);
 }
-.banner-section{
+.home__banner-section{
     background-color: black;
+}
+.home__adress-section{
+    background-color: #f2f3f5;
 }

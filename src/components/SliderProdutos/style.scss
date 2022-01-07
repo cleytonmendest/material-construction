@@ -1,0 +1,13 @@
+.product-slider{
+    max-width: 1200px;
+}
+.product-item{
+    max-width: 350px;
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-item__img{
+    width: 100%;
+}
