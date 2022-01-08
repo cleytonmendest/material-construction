@@ -4,15 +4,16 @@ import Image3 from './images/image3.png'
 
 const ImageBanner = [
     {
+        id:1,
         src: Image1
     },
     {
         id:2,
-        "src":Image2
+        src:Image2
     },
     {
         id:3,
-        "src":Image3
+        src:Image3
     },
 ]
 export default ImageBanner

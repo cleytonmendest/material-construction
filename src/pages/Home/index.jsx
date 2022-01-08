@@ -1,8 +1,9 @@
 import React from "react";
 import Menu from "../../components/Menu";
 import Banner from "../../components/Banner";
-import Map from '../../images/maps.jpg'
 import SliderProdutos from "../../components/SliderProdutos";
+import Fornecedores from "../../components/Fornecedores";
+import Adress from "../../components/Adress";
 import './styles.scss'
 
 const Home = () =>{
@@ -19,10 +20,10 @@ const Home = () =>{
                 <SliderProdutos/>
             </section>
             <section className="home__fornecedores">
-                
+                <Fornecedores/>
             </section>
             <section className="home__adress-section">
-                <img src={Map} alt="Map" />
+                <Adress/>
             </section>
         </main>
         <footer className="home__footer">
