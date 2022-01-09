@@ -6,7 +6,8 @@
 }
 .home__menu-area,
 .home__product-section,
-.home__adress-section{
+.home__adress-section,
+.home__instagram-area{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -17,8 +18,15 @@
     background-color: rgb(119, 0, 0);
 }
 .home__banner-section{
-    background-color: black;
+    background-color: #a9a9a9;
+    padding-bottom: 30px;
 }
-.home__adress-section{
-    background-color: #f2f3f5;
+.home__product-section{
+    padding-bottom: 30px;
+}
+
+.home__product-section,
+.home__adress-section,
+.home__instagram-area{
+    margin-top: 60px;
 }

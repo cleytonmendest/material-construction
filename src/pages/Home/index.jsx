@@ -4,6 +4,8 @@ import Banner from "../../components/Banner";
 import SliderProdutos from "../../components/SliderProdutos";
 import Fornecedores from "../../components/Fornecedores";
 import Adress from "../../components/Adress";
+import PostInstagram from "../../components/instagram";
+import Footer from "../../components/Footer";
 import './styles.scss'
 
 const Home = () =>{
@@ -25,9 +27,12 @@ const Home = () =>{
             <section className="home__adress-section">
                 <Adress/>
             </section>
+            <section className="home__instagram-area">
+                <PostInstagram/>
+            </section>
         </main>
         <footer className="home__footer">
-            <h1>Oi</h1>
+            <Footer/>
         </footer>
         </>
     )

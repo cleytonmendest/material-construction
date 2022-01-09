@@ -13,7 +13,7 @@ const Fornecedores = () =>{
         autoplay: true,
         autoplaySpeed: 100,
         initialSlide: 2,
-        pauseOnHover:false,
+        pauseOnHover:true,
         draggable:false
     }
     const settingsRev = {
@@ -27,7 +27,7 @@ const Fornecedores = () =>{
         autoplay: true,
         autoplaySpeed: 100,
         initialSlide: 2,
-        pauseOnHover:false,
+        pauseOnHover:true,
         rtl: true
     }
     return(
