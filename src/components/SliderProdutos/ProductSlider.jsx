@@ -1,9 +1,9 @@
 import Image1 from './images/coralantimanchas.png'
-import Image2 from './images/coralar18l.jpg'
-import Image3 from './images/fortlevcaixa.jpg'
-import Image4 from './images/marteletemakita.jpg'
-import Image5 from './images/portaaluminio.jpg'
-import Image6 from './images/serramarmoremk.jpg'
+import Image2 from './images/coralar18l.png'
+import Image3 from './images/fortlevcaixa.png'
+import Image4 from './images/marteletemakita.png'
+import Image5 from './images/portaaluminio.png'
+import Image6 from './images/serramarmoremk.png'
 
 
 

@@ -1,4 +1,8 @@
 .information{
     max-width: 1200px;
+    width: 100%;
     text-align: center;
+    @media screen and (max-width: 425px) {
+        font-size: 15px;
+    }
 }

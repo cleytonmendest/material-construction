@@ -1,13 +1,19 @@
 .product-slider{
     max-width: 1200px;
+    width: 100%;
 }
 .product-item{
     max-width: 350px;
+    width: 100%;
     display: flex!important;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .product-item__img{
-    width: 100%;
+    width: 50%;
+}
+.product-item__name{
+    padding: 0 10px;
+    text-align: center;
 }

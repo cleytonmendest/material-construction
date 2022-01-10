@@ -7,6 +7,7 @@ import Adress from "../../components/Adress";
 import PostInstagram from "../../components/instagram";
 import Footer from "../../components/Footer";
 import Informations from "../../components/Informations";
+import WhatsappButton from "../../components/WhatsappButton";
 import './styles.scss'
 
 const Home = () => {
@@ -34,6 +35,9 @@ const Home = () => {
                 <section className="home__instagram-area">
                     <PostInstagram />
                 </section>
+                <aside>
+                    <WhatsappButton/>
+                </aside>
             </main>
             <footer className="home__footer">
                 <Footer />

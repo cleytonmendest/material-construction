@@ -11,6 +11,7 @@ const Informations = () => {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
+        draggable: false
     }
 
     return (
@@ -23,7 +24,10 @@ const Informations = () => {
                     Dúvidas? Ligue (21)9999-9999 / (21)9999-9999
                 </div>
                 <div>
-                    Faça o seu pedido por WhatsApp! Mande mensagem para (21)99999-9999
+                    Faça o seu pedido por WhatsApp! 
+                </div>
+                <div>
+                    Mande mensagem para (21)99999-9999
                 </div>
             </Slider>
 

@@ -15,13 +15,13 @@ const Banner = () => {
         initialSlide: 2,
         lazyLoad: true,
     }
-    console.log(ImageBanner)
+
     return (
         <div className='banner'>
             <Slider {...settings}>
                 {ImageBanner.map((item, key) => (
                     <div key={key}>
-                        <img src={item.src} alt={`imagem ${key}`} />
+                        <img className='banner__img' src={item.src} alt={`imagem ${key}`} />
                     </div>
                 ))}
             </Slider>
