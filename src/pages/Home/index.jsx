@@ -8,6 +8,9 @@ import PostInstagram from "../../components/instagram";
 import Footer from "../../components/Footer";
 import Informations from "../../components/Informations";
 import WhatsappButton from "../../components/WhatsappButton";
+import ArticleRight from "../../components/ArticleRight";
+import ArticleLeft from "../../components/ArticleLeft";
+
 import './styles.scss'
 
 const Home = () => {
@@ -28,6 +31,12 @@ const Home = () => {
                 </section>
                 <section className="home__fornecedores">
                     <Fornecedores />
+                </section>
+                <section className="home__article-right">
+                    <ArticleRight/>
+                </section>
+                <section className="home__article-left">
+                    <ArticleLeft/>
                 </section>
                 <section className="home__adress-section">
                     <Adress />
