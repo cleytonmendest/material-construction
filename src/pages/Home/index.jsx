@@ -30,7 +30,7 @@ const Home = () => {
                     <SliderProdutos />
                 </section>
                 <section className="home__fornecedores">
-                    {/* <Fornecedores /> */}
+                    <Fornecedores />
                 </section>
                 <section className="home__article-right">
                     <ArticleRight/>
